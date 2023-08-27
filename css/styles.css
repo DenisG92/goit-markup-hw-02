@@ -207,13 +207,14 @@ height: 260px;
     letter-spacing: 0.02em;
     text-align: center;
 }
-.section-three {
+.portfolio {
     line-height: 1.11;
     text-transform: capitalize;
     color: #2e2f42;
+    font-weight: 500px;
 }
 .img-portfolio {
-    width: 360px;
+    width: 360;
 }
 .title-card {
     font-weight: 500px;
@@ -227,7 +228,7 @@ height: 260px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    
+
 }
 .description-footer {
 font-family: Roboto;

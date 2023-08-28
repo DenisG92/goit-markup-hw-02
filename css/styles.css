@@ -190,10 +190,14 @@ width: 264px;
     text-align: center;
 }
 .portfolio {
-    line-height: 1.11;
     text-transform: capitalize;
+    line-height: 1.11;
     color: #2e2f42;
     font-weight: 500px;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    
 }
 .portfolio-card {
     line-height: 1.11;

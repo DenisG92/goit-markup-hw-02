@@ -52,10 +52,9 @@ body {
     text-align: left;
     color: #2e2f42;    
 }
-.menu-item.menu {
-    color: #404bbf;
-}
+.menu-item:hover,
 .menu-item:focus {
+    color: #404bbf;
     color: #404bbf;
 }
 .menu-linc {
@@ -89,7 +88,6 @@ body {
     text-align: left;
     font-style: normal;
     color: #434455;
-    color: #404bbf;
 }
 .address-tel {
     font-family: Roboto;

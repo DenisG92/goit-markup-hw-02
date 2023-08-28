@@ -17,6 +17,7 @@ body {
     font-family: Raleway, sans-serif;
 }
 .page-navigation {
+   width: Hug 261px;
    gap: 40px;
 
 }
@@ -99,6 +100,7 @@ body {
     color: #434455;
 }
 .hero {
+  width: 1440px;
   background-color: #2e2f42;
 }
 
@@ -113,6 +115,7 @@ body {
     background: #2E2F42;
 }
 .button {
+width: 169px;
 padding: 16px 32px 16px 32px;
 background-color: #4D5AE5;
 font-weight: 500;
@@ -161,9 +164,11 @@ cursor: pointer;
     color: #2e2f42;
 }
 .people {
+width: 264px;
 background: #FFFFFF;
 }
-
+.image-people {
+width: 264px;
 }
 
 .name {
@@ -198,7 +203,7 @@ background: #FFFFFF;
     font-weight: 500px;
 }
 .img-portfolio {
-    
+    width: 360px;
 }
 .title-card {
     font-weight: 500px;
@@ -213,6 +218,7 @@ background: #FFFFFF;
     letter-spacing: 0.02em;
     color: #434455;
     
+
 }
 .description-footer {
     font-family: Roboto;
@@ -221,5 +227,5 @@ background: #FFFFFF;
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: left;
-    background-color: #F4F4FD;
+    background: #F4F4FD;
 }

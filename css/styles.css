@@ -41,7 +41,12 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
-    color: #2e2f42;
+    color:#2e2f42;
+}
+.menu-item:hover,
+.menu-item:focus {
+    color: #404bbf;
+    color: #404bbf;
 }
 .menu-item {
     font-family: Roboto;
@@ -49,13 +54,8 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: left;
-    color: #2e2f42;    
-}
-.menu-item:hover,
-.menu-item:focus {
-    color: #404bbf;
-    color: #404bbf;
+    text-align:left;
+    color:#2e2f42;    
 }
 .menu-linc {
     font-family: Roboto;

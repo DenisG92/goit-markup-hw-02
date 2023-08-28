@@ -15,14 +15,10 @@ body {
 }
 .page-header {
     font-family: Raleway, sans-serif;
-   border-bottom: 1px solid #E7E9FC
 }
 .page-navigation {
- width: Hug 261px;
- height: Hug 24px;
- top: 24px;
- left: 347px; 
- gap: 40px;
+   width: Hug 261px;
+   gap: 40px;
 
 }
 .logotype {
@@ -54,10 +50,9 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
-    color: #2e2f42;
-    
+    color: #2e2f42;    
 }
-.menu-item:hover {
+.menu-item.menu {
     color: #404bbf;
 }
 .menu-item:focus {
@@ -108,8 +103,6 @@ body {
 }
 .hero {
   width: 1440px;
-  height: 600px;
-  top: 72px;
   background-color: #2e2f42;
 }
 
@@ -123,22 +116,20 @@ body {
     color: #ffffff;
     background: #2E2F42;
 }
-.button-Order {
+.button {
 width: 169px;
-height: 56px;
-top: 428px;
-left: 636px;
 padding: 16px 32px 16px 32px;
-border-radius: 4px;
-gap: 10px;
 background-color: #4D5AE5;
-box-shadow: 0px 4px 4px 0px #00000026;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: #ffffff;
-
+}
+.button:hover,
+.button:focus {
+background-color: #404BBF;
+cursor: pointer;
 }
 .title-section-one {
     font-family: Roboto;
@@ -172,20 +163,10 @@ color: #ffffff;
 }
 .people {
 width: 264px;
-height: 380px;
-top: 1248px;
-left: 156px;
-padding: 0px 0px 32px 0px;
-border-radius: 0px 0px 4px 4px;
-gap: 32px;
 background: #FFFFFF;
-box-shadow: 0px 2px 1px 0px #2E2F4214;
-box-shadow: 0px 1px 1px 0px #2E2F4229;
-box-shadow: 0px 1px 6px 0px #2E2F4214;
 }
 .image-people {
 width: 264px;
-height: 260px;
 }
 
 .name {
@@ -213,8 +194,14 @@ height: 260px;
     color: #2e2f42;
     font-weight: 500px;
 }
+.portfolio-card {
+    line-height: 1.11;
+    text-transform: capitalize;
+    color: #2e2f42;
+    font-weight: 500px;
+}
 .img-portfolio {
-    width: 360;
+    width: 360px;
 }
 .title-card {
     font-weight: 500px;
@@ -228,6 +215,7 @@ height: 260px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    
 
 }
 .description-footer {

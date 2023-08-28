@@ -160,8 +160,7 @@ cursor: pointer;
     letter-spacing: 0.02em;
     text-align: center;
     line-height: 1.11;
-    text-transform: capitalize;
-    color: #2e2f42;
+    
 }
 .people {
 width: 264px;
@@ -175,7 +174,7 @@ width: 264px;
     font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
@@ -221,6 +220,14 @@ width: 264px;
 
 }
 .description-footer {
+font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+  
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;

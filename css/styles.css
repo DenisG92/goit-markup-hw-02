@@ -43,11 +43,7 @@ body {
     text-align: left;
     color:#2e2f42;
 }
-.menu-item:hover,
-.menu-item:focus {
-    color: #404bbf;
-    color: #404bbf;
-}
+
 .menu-item {
     font-family: Roboto;
     font-size: 16px;
@@ -56,6 +52,11 @@ body {
     letter-spacing: 0.02em;
     text-align:left;
     color:#2e2f42;    
+}
+.menu-item:hover,
+.menu-item:focus {
+    color: #404bbf;
+    color: #404bbf;
 }
 .menu-linc {
     font-family: Roboto;
@@ -103,7 +104,6 @@ body {
   width: 1440px;
   background-color: #2e2f42;
 }
-
 .hero-image-title {
     font-family: Roboto;
     font-size: 56px;

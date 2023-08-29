@@ -42,13 +42,7 @@ body {
     letter-spacing: 0.02em;
     color:#2e2f42;
 }
-.menu-list:hover {
-    color: #404bbf;
-}
 
-.menu-list:focus {
-    color: #404bbf;
-}
 .menu-header {
     font-family: Roboto;
     font-size: 16px;
@@ -57,7 +51,13 @@ body {
     letter-spacing: 0.02em;
     color:#2e2f42;    
 }
-
+.menu-header:hover {
+    color: #404bbf;
+}
+.menu-header:focus {
+   color: #404bbf;
+}
+    
 .menu-linc {
     font-family: Roboto;
     font-size: 16px;

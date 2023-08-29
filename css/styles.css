@@ -44,7 +44,7 @@ body {
     color:#2e2f42;
 }
 
-.menu-item {
+.menu-header {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
@@ -53,8 +53,8 @@ body {
     text-align:left;
     color:#2e2f42;    
 }
-.menu-item:hover,
-.menu-item:focus {
+.menu-header:hover,
+.menu-header:focus {
     color: #404bbf;
     color: #404bbf;
 }

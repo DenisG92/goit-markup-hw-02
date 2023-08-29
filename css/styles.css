@@ -20,7 +20,7 @@ body {
 .div-header {
     display: flex;
 }
-.container-container-div {
+.container-container-div:default {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;

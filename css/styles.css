@@ -31,7 +31,7 @@ body {
     color:#4d5ae5;
     text-transform: uppercase; 
 }
-.Studio {
+.studio {
     color: #2e2f42;
 }
 .menu-list {
@@ -53,11 +53,13 @@ body {
     text-align:left;
     color:#2e2f42;    
 }
-.menu-header:hover,
-.menu-header:focus {
-    color: #404bbf;
+.menu-header:hover {
     color: #404bbf;
 }
+.menu-header:focus {
+   color: #404bbf;
+}
+    
 .menu-linc {
     font-family: Roboto;
     font-size: 16px;

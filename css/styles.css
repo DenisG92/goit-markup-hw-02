@@ -15,6 +15,20 @@ body {
 }
 .page-header {
     font-family: Raleway, sans-serif;
+    border-bottom: 1px solid #e7e9fc;
+}
+.div-header {
+    display: flex;
+}
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.page-navigation{
+    display: flex;
+    align-items: center;
+
 }
 .logotype {
     font-family: Raleway, sans-serif;
@@ -24,6 +38,8 @@ body {
     letter-spacing: 0.03em;
     color:#4d5ae5;
     text-transform: uppercase; 
+    margin-right: 76px;
+
 }
 .studio {
     color: #2e2f42;
@@ -35,6 +51,9 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#2e2f42;
+    display: flex;
+    gap: 40px;
+
 }
 .menu-header {
     font-family: Roboto;
@@ -42,7 +61,8 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:#2e2f42;    
+    color:#2e2f42;
+    padding-top: 24px;
 }
 .menu-header:hover {
     color: #404bbf;
@@ -60,6 +80,8 @@ body {
 }
 .address {
     font-style: normal;
+    display: flex;
+    gap: 40px:
 }
 
 .address-mail{

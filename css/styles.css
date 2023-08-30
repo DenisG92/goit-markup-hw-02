@@ -176,12 +176,10 @@ cursor: pointer;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    width: calc((100% - 24px) / 4);
-
+    flex-basis: calc((100% - 72px) / 4);
 }
-.title-section-one{
-margin-bottom: 8px;
-
+.title-section-one {
+    margin-bottom: 8px;
 }
 .description-title-section-one {
     font-family: Roboto;

@@ -20,7 +20,7 @@ body {
 .div-header {
     display: flex;
 }
-.container-container-div:default {
+.container {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
@@ -186,7 +186,9 @@ margin-bottom: 8px;
     color: #434455;
 }
 .section-two {
- background-color: #F4F4FD;
+    background-color: #F4F4FD;
+    padding: 120px 0;
+
 }
 .title-section-two {
     font-family: Roboto;
@@ -198,11 +200,25 @@ margin-bottom: 8px;
     line-height: 1.11;
     text-transform: capitalize;
     color: #2e2f42;
-
+    margin-bottom: 72px;
     
 }
+.list-section-two{
+ 
+
+}
 .people {
-background: #FFFFFF;
+    background: #FFFFFF;
+    display: flex;
+    gap: 24px;
+}
+.image-people {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+.div-name-profession{
+    padding: 32px 0;
+
 }
 .name {
     font-family: Roboto;
@@ -210,9 +226,11 @@ background: #FFFFFF;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
+
 }
 .profession {
 
@@ -222,6 +240,7 @@ background: #FFFFFF;
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: center;
+    
 }
 .portfolio {
     font-weight: 500;

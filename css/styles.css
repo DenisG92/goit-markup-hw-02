@@ -23,7 +23,7 @@ body {
     font-family: Raleway, sans-serif;
     border-bottom: 1px solid #e7e9fc;
 }
-.div-header {
+.div-header-container{
     display: flex;
 }
 .container {

@@ -14,6 +14,9 @@ a {
 ul {
     list-style: none;
 }
+img {
+    display: block
+}
 body {
     font-family: Roboto, sans-serif;
     color: #434455;
@@ -53,6 +56,7 @@ body {
 .menu-nav{
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 .menu-list {
     font-family: Roboto;
@@ -61,7 +65,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#2e2f42;
-    padding-bottom: 24px;
+    
 }
 .menu-header {
     font-family: Roboto;
@@ -177,6 +181,7 @@ cursor: pointer;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    width: calc((100% - 72px) / 4);
     
 }
 .title-section-one {
@@ -262,15 +267,13 @@ cursor: pointer;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    
 }
 .portfolio-card {
     line-height: 1.11;
     text-transform: capitalize;
     color: #2e2f42;
     font-weight: 500px;
-    width: calc((100% - 48px) / 3);
-}
-.img-portfolio {
     width: calc((100% - 48px) / 3);
 }
 .div-card{

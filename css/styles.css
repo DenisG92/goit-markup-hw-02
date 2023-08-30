@@ -173,7 +173,15 @@ cursor: pointer;
 
 }
 .ok {
-    visibility: hidden;
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
 }
 .section-one {
      display: flex;
@@ -272,14 +280,14 @@ cursor: pointer;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    width: calc((100% - 48px) / 3);
+    
 }
 .portfolio-card {
     line-height: 1.11;
     text-transform: capitalize;
     color: #2e2f42;
     font-weight: 500px;
-   
+    width: calc((100%-48px)/3); 
 }
 .div-card{
     padding: 32px 16px;

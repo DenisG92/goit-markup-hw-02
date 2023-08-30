@@ -196,7 +196,7 @@ cursor: pointer;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    width: calc((100% - 72px) / 4);
+    width: calc( (100% - 72px) / 4);
 }
 .title-section-one {
     margin-bottom: 8px;
@@ -234,7 +234,7 @@ cursor: pointer;
 }
 .people {
     background: #FFFFFF;
-    flex-basis: calc((100% - 72px) / 4);
+    flex-basis: calc( (100% - 72px) / 4);
  border-radius: 0px 0px 4px 4px;
    
 }
@@ -290,7 +290,7 @@ cursor: pointer;
     text-transform: capitalize;
     color: #2e2f42;
     font-weight: 500px;
-    width: calc((100% - 48px) / 3); 
+    width: calc( (100% - 48px) / 3); 
 }
 .div-card{
     padding: 32px 16px;

@@ -415,7 +415,6 @@ cursor: pointer;
     display: flex;
     align-items: baseline;
     margin-right: 120px;
-
 }
 .logotype-footer {
     font-family: "Raleway", sans-serif;
@@ -478,5 +477,5 @@ cursor: pointer;
 }
 .footer-social-media-icon {
     fill:#f4f4fd;
-    
+
 }

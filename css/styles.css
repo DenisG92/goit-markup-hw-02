@@ -53,9 +53,9 @@ body {
    
 }
 .page-navigation {
-    position: relative;
+   
     color: #404bbf;
-    transition: color 250ms, cubic-bezier(0.4, 0, 0.2, 1)
+    
 }
 .logotype {
     font-family: Raleway, sans-serif;
@@ -66,6 +66,9 @@ body {
     color:#4d5ae5;
     text-transform: uppercase; 
     margin-right: 76px;
+    position: relative;
+    color: #404bbf;
+    transition: color 250ms, cubic-bezier(0.4, 0, 0.2, 1)
     
 }
 .studio {
@@ -83,6 +86,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .menu-header {
     font-family: Roboto;

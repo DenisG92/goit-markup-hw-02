@@ -430,7 +430,6 @@ cursor: pointer;
 .container-footer-container {
     display: flex;
     align-items: baseline;
-    margin-right: 120px;
 }
 .container {
     margin-right: 120px;
@@ -501,9 +500,5 @@ cursor: pointer;
 }
 .footer-social-media-icon {
     fill:#f4f4fd;
-
-}
-.container-footer-icon {
-    margin-right: 120px;
 
 }

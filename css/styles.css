@@ -458,7 +458,7 @@ cursor: pointer;
     max-width: 264px;
     margin-bottom: 16px;
 }
-.Social-media {
+.social-media {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -497,5 +497,9 @@ cursor: pointer;
 }
 .footer-social-media-icon {
     fill:#f4f4fd;
+
+}
+.container-footer-icon {
+    margin-right: 120px;
 
 }

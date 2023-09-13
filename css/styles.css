@@ -432,6 +432,9 @@ cursor: pointer;
     align-items: baseline;
     margin-right: 120px;
 }
+.container {
+    margin-right: 120px;
+}
 .logotype-footer {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -465,6 +468,7 @@ cursor: pointer;
     letter-spacing: 0.02em;
     color:#FFFFFF;
     margin-bottom: 16px;
+    margin-right: 120px;
 
 }
 .social-cont {

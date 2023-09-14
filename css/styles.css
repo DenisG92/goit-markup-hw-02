@@ -427,9 +427,11 @@ cursor: pointer;
     margin-right: 120px;
 
 }
-.container {
+.container-footer {
     align-items: baseline;
-   
+    display: flex;
+    margin: 0 auto;
+        padding: 15px 15px;
 }
 .logotype-footer {
     font-family: "Raleway", sans-serif;

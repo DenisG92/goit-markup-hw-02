@@ -460,7 +460,7 @@ transform: translateY(0%);
     letter-spacing: 0.02em;
     color: #F4F4FD;
     max-width: 264px;
-    margin-bottom: 16px;
+    
 }
 .social-media {
     font-weight: 500;
@@ -468,7 +468,7 @@ transform: translateY(0%);
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#FFFFFF;
-
+    margin-bottom: 16px;
 }
 .social-cont {
     display: flex;

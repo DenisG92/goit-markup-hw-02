@@ -34,6 +34,7 @@ body {
     margin: 0 auto;
     padding: 15px 15px;
    
+   
 }
 .page-navigation-after{
     display: flex;
@@ -430,7 +431,6 @@ cursor: pointer;
 
 }
 .container {
-    display: flex;
     align-items: baseline;
    
 }

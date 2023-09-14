@@ -435,6 +435,7 @@ transform: translateY(0%);
     display: flex;
      margin: 0 auto;
     padding: 15px 15px;
+    
 }
 .logotype-footer {
     font-family: "Raleway", sans-serif;
@@ -445,7 +446,7 @@ transform: translateY(0%);
     text-transform: uppercase;
     color: #4d5ae5;
     display: inline-block;
-    margin-bottom: 16px;
+    
 
 }
 .studio-footer{

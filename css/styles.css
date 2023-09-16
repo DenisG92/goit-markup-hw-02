@@ -722,7 +722,7 @@ transform: translateY(0%);
     fill: transparent;
 
 }
-.visually-hidden:checked .span-user-privacy {
+.visually-hidden:checked +label >span {
     background-color:#404bbf;
     border: none;
     fill: #F4F4FD;

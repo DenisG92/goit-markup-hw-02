@@ -33,6 +33,10 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
+.page-header-container {
+    display: flex;
+    justify-content: space-between;
+}
 .page-header {
     font-family: Raleway, sans-serif;
     border-bottom: 1px solid #e7e9fc;

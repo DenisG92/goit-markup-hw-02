@@ -449,6 +449,7 @@ transform: translateY(0%);
 }
 .container-footer-container {
     margin-right: 120px;
+   
 
 }
 .container-footer {
@@ -467,7 +468,7 @@ transform: translateY(0%);
     text-transform: uppercase;
     color: #4d5ae5;
     display: inline-block;
-    
+    margin: 16px;
 
 }
 .studio-footer{
@@ -482,6 +483,7 @@ transform: translateY(0%);
     letter-spacing: 0.02em;
     color: #F4F4FD;
     max-width: 264px;
+    margin: 16px;
     
 }
 .social-media {

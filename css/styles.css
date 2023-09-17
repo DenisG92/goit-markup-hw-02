@@ -192,13 +192,13 @@ body {
     color: #404bbf;
 }
 .hero {
-    background-color: #2e2f42;
     padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpeg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
     max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-color: #2e2f42;
 }
 .hero-image-title {
     font-family: Roboto;
@@ -207,29 +207,31 @@ body {
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #ffffff;
-    background: #2E2F42;
+    color: #FFFFFF;
+ 
     max-width: 496px;
-        margin-left: auto;
-            margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 .button {
-background-color: #4D5AE5;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: #ffffff;
-display: block;
-min-width: 169px;
-height: 56px;
-border: none;
-background-color:#4d5ae5;
-border-radius: 4px;
-cursor: pointer;
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color:#4d5ae5;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-left: auto;
-        margin-right: auto;
+    margin-right: auto;
+    margin-top: 48px;
 }
 .button:hover,
 .button:focus {
@@ -276,8 +278,11 @@ cursor: pointer;
 }
 .title-section-one {
     margin-bottom: 8px;
-    
-    
+    Font: Roboto;
+    height: 500;
+    Size: 20px;
+    inset: height 24px;
+
 }
 .description-title-section-one {
     font-family: Roboto;
@@ -340,12 +345,14 @@ cursor: pointer;
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-top: 8px;
     
 }
 .social-networks {
     display: flex;
     justify-content: center;
     gap: 24px;
+    margin-top: 8px;
 }
 .social-networks-list {
     width: 40px;
@@ -458,6 +465,7 @@ transform: translateY(0%);
 .footer {
     background-color: #2e2f42;
     padding: 100px 0;
+  
 
 }
 .container-footer-container {
@@ -469,8 +477,9 @@ transform: translateY(0%);
     align-items: baseline;
     display: flex;
      margin: 0 auto;
-    padding: 15px 15px;
-    
+    padding: 0 15px;
+    Width: 1156px;
+   margin-left: 156px;
 }
 .logotype-footer {
     font-family: "Raleway", sans-serif;
@@ -499,6 +508,7 @@ transform: translateY(0%);
     margin: 16px;
     
 }
+
 .social-media {
     margin-bottom: 16px;
     color: #FFFFFF;
@@ -657,6 +667,7 @@ transform: translateY(0%);
 }
 .div-form {
     margin-bottom: 8px;
+
 }
 .label-name {
     font-size: 12px;
@@ -680,6 +691,7 @@ transform: translateY(0%);
     padding-left: 38px;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   
 
 }
 .input-icon:focus {
@@ -691,6 +703,7 @@ transform: translateY(0%);
     top: 50%;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   
 
 }
 .input-icon:focus + .svg-input-icon {
@@ -729,6 +742,7 @@ transform: translateY(0%);
     color: #8e8f99;
     display: block;
     margin-bottom: 4px;
+
 }
 .span-user-privacy {
     width: 16px;
@@ -742,15 +756,22 @@ transform: translateY(0%);
     fill: transparent;
 
 }
+.visually-hidden {
+    opacity: 0;
+        visibility: hidden;
+        display: none;
+}
 .visually-hidden:checked +label >span {
     background-color:#404bbf;
     border: none;
     fill: #F4F4FD;
 
+
 }
+
 .privacy-policy {
     color:#4d5ae5;
-
+    text-decoration: underline;
 }
 .button-send {
     display: block;
@@ -774,4 +795,18 @@ transform: translateY(0%);
     cursor: pointer;
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin: auto;
+}
+.contact-form-own-checkbox {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    border: 1px solid rgba(46, 47, 66, 0.40);
+    cursor: pointer;
+    fill: transparent;
+    margin-right: 8px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

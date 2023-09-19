@@ -200,6 +200,14 @@ body {
     background-size: cover;
     background-color: #2e2f42;
 }
+@media screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx),
+screen and (min-device-pixel-ratio: 2) {
+    .hero {
+        background-image: url('../images/people-office@2x.jpg');
+        background-color: #2e2f42;
+    }
+}
 .hero-image-title {
     font-family: Roboto;
     font-size: 56px;
@@ -809,4 +817,14 @@ transform: translateY(0%);
     fill: transparent;
     margin-right: 8px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+
+
+екрани щільністю x1 и x2. тільки для фонових зображень
+@media screen and (min-resolution: 192dpi) {
+    .стиль фото {
+        background-image: url('../шлях до фото@2x.gpg');
+    }
 }

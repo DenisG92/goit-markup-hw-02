@@ -1,0 +1,27 @@
+/*.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 15px 15px;
+    align-items: center;
+
+}
+*/
+.container {
+    padding-left: 16px;
+    padding-right: 16px;
+
+}
+@media screen and (main-width: 320px){
+    .container {
+    width: 320px;
+    margin-left: 16px;
+    margin-right: 16px;
+    }
+}
+@media screen and (main-width: 768px) {
+    .container {
+        width: 768px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}

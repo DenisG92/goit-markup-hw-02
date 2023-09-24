@@ -1,3 +1,9 @@
 @import './base/common.css';
 @import './base/container.css';
 @import './layout/header.css';
+@import './layout/bacdrop.css';
+@import './layout/description.css';
+@import './layout/footer.css';
+@import './layout/hero.css';
+@import './layout/portfolio.css';
+@import './layout/team.css';

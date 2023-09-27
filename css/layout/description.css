@@ -1,11 +1,5 @@
 /* MOBILE */
 
-.hero {
-    padding: 93px 0 99px 0;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .cont-icon {
     display: none;
 }
@@ -127,8 +121,7 @@
         letter-spacing: 0.02em;
     }
 }
-
- .feature {
+.feature {
     padding: 120px 0;
 }
 
@@ -187,4 +180,4 @@
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #434455;
-} 
+}

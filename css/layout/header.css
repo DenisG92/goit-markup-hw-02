@@ -85,7 +85,7 @@
     }
 
      .mobile-menu-close-btn .mobile-menu-close-icon,
-.mobile-menu-close-btn:focus .mobile-menu-close-icon {
+     .mobile-menu-close-btn:focus .mobile-menu-close-icon {
     fill: #FFFFFF;
 }  
 
@@ -347,7 +347,7 @@
         background: #404BBF;
         content: "";
 
-         .menu-link {
+        .menu-link {
     color: #2e2f42;
     font-size: 16px;
     font-weight: 500;

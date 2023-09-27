@@ -1,27 +1,7 @@
-.linc {
-    text-decoration: none;
-}
-
-.list {
-    list-style: none;
-}
-
-button {
-    cursor: pointer;
-}
-
-a {
-    text-decoration: none;
-}
-
-ul {
-    margin: 0;
-    padding-left: 0;
-    list-style-type: none;
-}
-
-img {
-    display: block
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
 }
 
 h1,
@@ -30,12 +10,34 @@ h3,
 h4,
 h5,
 h6,
-p {
-    margin: 0;
+p,
+a {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-decoration: none;
 }
 
-body {
-    font-family: Roboto, sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
+ul {
+    list-style-type: none;
+    font-style: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
 }
